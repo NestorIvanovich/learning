@@ -18,3 +18,4 @@ let str3 = ['needle', 'adfbg', 'adfbg', 'adfbg', 'adfbg', 'mqqbz', 'wwhip', 'nee
 console.log(findNeedle(str3))
 let str4 = ['qazfc', 'qazfc', 'fpoxn', 'mjhzm', 'adfbg', 'mqqbz', 'wwhip', 'nxssq']// слова нет
 console.log(findNeedle(str4))
+privet
