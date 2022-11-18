@@ -1,6 +1,6 @@
 function findNeedle(haystack) {
     let num = 0
-    for (let i = 0; i < haystack.lenght; i++) {
+    for (let i = 0; i < haystack.length; i++) {
         haystack[i] === "needle" ? num += i : num +=0
     }
     return `found the needle at position ${num}`
@@ -18,4 +18,4 @@ let str3 = ['needle', 'adfbg', 'adfbg', 'adfbg', 'adfbg', 'mqqbz', 'wwhip', 'nee
 console.log(findNeedle(str3))
 let str4 = ['qazfc', 'qazfc', 'fpoxn', 'mjhzm', 'adfbg', 'mqqbz', 'wwhip', 'nxssq']// слова нет
 console.log(findNeedle(str4))
-privet
+
