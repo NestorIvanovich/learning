@@ -1,5 +1,5 @@
 function findNeedle(haystack) {
-    let num = 0
+    let num = false
     for (let i = 0; i < haystack.length; i++) {
       //  haystack[i] === "needle" ? num += i : num +=0
         if (haystack[i] === "needle") {
